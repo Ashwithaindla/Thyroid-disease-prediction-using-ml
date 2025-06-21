@@ -9,7 +9,7 @@ This project aims to develop and evaluate a machine learning model to predict th
 
 - **Data Loading and Preparation**: Load and prepare the dataset from a CSV file, handle missing values, and convert columns if needed.
 - **Data Preprocessing**: Standardize features, split data into training and testing sets, and perform feature scaling.
-- **Model Training**: Train a `HistGradientBoostingClassifier` on the preprocessed data to classify thyroid conditions.
+- **Model Training**: Train a `CatBoostingClassifier` on the preprocessed data to classify thyroid conditions.
 - **Performance Evaluation**: Use classification metrics and visualize results with a confusion matrix heatmap.
 - **Visualization**: Generate visualizations such as confusion matrix heatmaps to understand model performance.
 
@@ -48,7 +48,7 @@ This project aims to develop and evaluate a machine learning model to predict th
 | Component             | File/Folder              | Description                                                                |
 |-----------------------|--------------------------|----------------------------------------------------------------------------|
 | 📊 Dataset            | `thyroid-disease.data`   | Patient data used for training and evaluation.                            |
-| 📒 Notebook           | `thyroid_prediction.ipynb` | Jupyter notebook with full ML workflow.                                   |
+| 📒 Notebook           | `thyroid_prediction.ipynb` | Googlecolab notebook with full ML workflow.                                   |
 | 🤖 Trained Model      | `thyroid_model.pkl`      | Trained ML model saved using `joblib` for predictions.                    |
 | 📄 Documentation      | `README.md`              | Overview, usage instructions, and project info.                           |
 | 📦 Requirements File  | `requirements.txt`       | List of Python packages used in the project.                              |

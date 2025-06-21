@@ -1,7 +1,10 @@
+
 thyroid-disease-prediction/
-├── folderstructre.txt
-├── thyroid_prediction.ipynb  
-├── thyroid.csv               
+├──folderstructre.txt
+├── thyroid_prediction.ipynb
+├── thyroid_model.pkl
+├── thyroid-Diff.csv
 ├── README.md
 ├── requirements.txt
-└── .gitignore
+├── .gitignore
+└── images/ (optional for visualizations)

@@ -1,0 +1,7 @@
+thyroid-disease-prediction/
+├── folderstructre.txt
+├── thyroid_prediction.ipynb  
+├── thyroid.csv               
+├── README.md
+├── requirements.txt
+└── .gitignore
